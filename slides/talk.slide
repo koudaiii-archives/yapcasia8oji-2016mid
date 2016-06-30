@@ -66,3 +66,31 @@ ECS や GCP 、 Heroku では出来ないのか?
 - application リリース
 - logging の設定
 - monitoring の設定
+
+
+* Doug McIlroy(UNIX創始者の一人でpipeの発明者) UNIX哲学
+
+This is the Unix philosophy:
+
+- Write programs that do one thing and do it well.
+- Write programs to work together.
+- Write programs to handle text streams, because that is a universal interface.
+
+[訳]
+
+UNIXの哲学は以下である。
+- 1つのプログラムが、1つの役割に専念する。
+- 複数のプログラムは協調して働く。
+- プログラムは汎用的インターフェイスである標準入出力を扱う。
+
+* Mike Gancarz(X Window System設計チームの一員)のUNIX哲学
+
+- Small is beautiful. (小さいものは美しい)
+- Make each program do one thing well. (１つのプログラムは単純な１つの機能を行う)
+- Build a prototype as soon as possible. (なるべく早くプロトタイプを作成せよ)
+- Choose portability over efficiency. (効率よりも移植性を重視せよ)
+- Store data in flat text files. (データは単純なテキストファイルに格納せよ)
+- Use software leverage to your advantage. (ソフトウエアを自らを助く手段として利用せよ)
+- Use shell scripts to increase leverage and portability. (シェルスクリプトを利用し自らを助け、移植性を高めよ)
+- Avoid captive user interfaces. (ユーザ・インターフェースを１つに強制するな)
+- Make every program a filter. (物事を階層に分割して考えよ)
